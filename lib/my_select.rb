@@ -1,3 +1,4 @@
+
 def my_select(collection)
 
 	return "This block should not run!" if collection.length == 0
