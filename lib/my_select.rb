@@ -8,6 +8,6 @@ def my_select(collection)
 		selected.push( yield(collection[i]) )
 		i += 1
 	end
-	return collection
+	return selected
 
 end
